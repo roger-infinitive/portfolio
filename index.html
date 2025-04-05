@@ -10,25 +10,25 @@
       margin: 0;
       padding: 2rem;
       line-height: 1.6;
-      background-color: #f9f9f9;
-      color: #333;
+      background-color: #121212;
+      color: #e0e0e0;
     }
     .container {
       max-width: 800px;
       margin: auto;
-      background: white;
+      background: #1e1e1e;
       padding: 2rem;
       border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
     }
     h1, h2 {
-      color: #222;
+      color: #ffffff;
     }
     ul {
       padding-left: 1.2rem;
     }
     a {
-      color: #0066cc;
+      color: #90caf9;
       text-decoration: none;
     }
     a:hover {
@@ -54,11 +54,16 @@
     <div class="section">
       <h2>Professional Summary</h2>
       <p>
-        Experienced game developer and systems programmer with over 7 years of industry experience.
-        Expertise in building custom engines using C/C++, as well as delivering gameplay systems, tools,
-        and enemy AI within Unity. Demonstrated ability to create performant, scalable systems across rendering,
-        physics, audio, and animation pipelines. Currently seeking contract or freelance opportunities
-        involving game tools, engine-side development, or Unity programming.
+        I am experienced game developer and systems programmer with over 7 years of industry experience.
+        I've worked as a CTO for a successful start-up company, VisualLive, which was acquired by Unity Technologies.
+        At Unity, I worked as the team lead and Software Manager for a team of 10 senior developers.
+        In the present day, I am running my own indie game studio and working towards shipping a title towards the end of the year.
+      </p>
+      
+      <p>     
+        My expertise in building custom engines using C/C++, as well as delivering gameplay systems, tools,
+        and enemy AI. I've built performant systems for rendering (both 2D and 3D), physics, audio, and animation pipelines. 
+        Currently seeking contract or freelance opportunities involving game development, game tooling, custom-engine development, or Unity programming.
       </p>
     </div>
 
@@ -66,10 +71,10 @@
       <h2>Technical Skills</h2>
       <ul>
         <li>Game Development: C, C++, Unity (7+ years)</li>
-        <li>Systems: Custom engines, AI behavior trees, physics, rendering pipelines, UI systems</li>
-        <li>Tools: Spine 2D integration, shader programming, tilemap rendering, asset pipelines</li>
-        <li>Platforms: Windows, Xbox, DirectX11</li>
-        <li>Low Level: Assembly, Memory allocators, SoA vs. AoS </li>
+        <li>Custom engines, rendering, AI behavior trees, physics, UI systems</li>
+        <li>Tools: Spine 2D integration, shader programming, tilemaps, asset pipelines</li>
+        <li>Platforms: Windows, Xbox, DirectX, OpenGL, Vulkan</li>
+        <li>Low Level: Assembly, Memory allocators, Data-oriented practices, SoA vs. AoS </li>
       </ul>
     </div>
 
@@ -78,14 +83,45 @@
       <h3>Cultist Astronaut (Custom Engine - C/C++)</h3>
       <ul>
         <li>Built a full 2D engine with custom rendering, audio, animation, scripting, and UI systems</li>
-        <li>Integrated Spine 2D animation, AI behavior trees, and optimized tilemap batching</li>
-        <li>Designed internal tools for level editing, debug rendering, and effect systems</li>
+        <li>Integrated Spine 2D animation, AI behavior trees, and optimized 2D batching for sprites and tilemaps</li>
+        <li>Designed internal tools for level editing, debug rendering, and special effects</li>
       </ul>
 
-      <h3>Unity Game Dev</h3>
+      <h3>Unity Tool Programming</h3>
       <ul>
-        <li>Created reusable components for projectile physics, enemy AI, and animation IK</li>
-        <li>Developed tools for editor scripting, rapid debugging, and content workflows</li>
+        <li>Created plugins for importing, converting, and optimizing high polygonal meshes. Many of theses meshes were in the millions and sometimes close to 1 billion triangles. 
+        Optimization included deduplication of vertices, instancing meshes, options to remove small details, and merging geometry to reduce draw calls.</li>
+        <li>Developed custom editors for importing and modifying game assets. Specifically created a table-style editor for mass editing data for a game.</li>
+      </ul>
+	  
+      <h3>Hobby Projects</h3>
+      <p>
+        A few personal and jam games built to experiment with mechanics and technical challenges.
+      </p>
+      <p>
+        Check them out here: <a href="https://infinitive-game-studios.itch.io/" target="_blank">infinitive-game-studios.itch.io</a>.
+      </p>
+      <ul>
+		<li>
+            <strong>Beneath the Tranquil Waves</strong> (3-day Game Jam)  
+            – Explores ocean restoration through purifying and reviving sea life. Implemented flocking AI where fish follow the player as their leader.
+        </li>
+        <li>
+			<strong>Morpheus</strong> (College Capstone, Team Lead of 10+)  
+			– A 3D exploration game with shapeshifting mechanics. Led a large team, coordinated across design, art, and engineering disciplines.
+		</li>
+		<li>
+			<strong>Spunky</strong> (Prototype)  
+			– Created a "ghost replay" system for recording and racing against previous player runs.
+		</li>
+		<li>
+			<strong>Chrono Crack</strong> (2-day Game Jam)  
+			– Designed around time travel loops. Jump through time rifts to explore different time periods. Structures degrade and nature grows.
+		</li>
+		<li>
+			<strong>Camp Demise</strong> (2-day Game Jam)  
+			– A 2D horror game where players use a flash light to ward off enemies in the darkness.
+		</li>
       </ul>
 	  
 	  <h3>Unity Reflect</h3>
