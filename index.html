@@ -42,7 +42,6 @@
 <body>
   <div class="container">
     <h1>Roger Schoellgen</h1>
-    <h2>Infinitive Game Studios, LLC</h2>
 
     <div class="section">
       <strong>Email:</strong> <a href="mailto:roger.s@infinitivegames.com">roger.s@infinitivegames.com</a><br>
@@ -52,36 +51,20 @@
     <div class="section">
       <h2>Professional Summary</h2>
       <p>
-        I am experienced game developer and systems programmer with over 7 years of industry experience.
-        I previously served as CTO of the start-up VisualLive, which was successfully acquired by Unity Technologies.
-        At Unity, I led a team of 8 senior developers as Team Lead and Software Manager, delivering high-performance AR/VR solutions for AEC.
+        I am an experienced game developer with 8 years in the industry. I co-founded a startup called VisualLive in 2017, which was acquired by Unity Technologies in 2021. From 2021 to 2023, I led a team of 8 developers at Unity, building AR/VR solutions for the AEC (Architecture, Engineering, and Construction) industry. Today, I run my own game studio and am actively developing Cultist Astronaut.
       </p>
-      
       <p>
-        Today, I run my own indie game studio and I am working towards shipping Cultist Astronaut by the end of the year.
-        My expertise includes building custom engines using C/C++, developing gameplay systems, and creating editor tools for artists and designers.
-        I also have my hands in gameplay and level design.
-        I've designed and implemented systems for 2D and 3D rendering, character physics, audio, and animation. 
-      </p>
-    </div>
-    
-    <div class="section">
-      <h2>Availability</h2>
-      <p>
-        I am currently open to contract or freelance opportunities involving game development, engine architecture, tooling, or Unity programming.
-        Open to consulting, technical reviews, and freelance development. 
-        Please reach out via email (roger.s@infintivegames.com) for collaboration.
+        I am currently open to contract or freelance opportunities involving game development, engine architecture, and tooling.
+        Available for consulting or hands-on development work.
       </p>
     </div>
 
 	<div class="section">
 	  <h2>Technical Skills</h2>
 	  <ul>
-		<li><strong>Game Development:</strong> C, C++, Unity (7+ years)</li>
-		<li><strong>Systems:</strong> Custom engines, rendering, shader programming, AI behavior trees, physics, UI systems</li>
-		<li><strong>Tools:</strong> Spine 2D integration, tilemaps, asset pipelines</li>
-		<li><strong>Platforms:</strong> Windows, Xbox, DirectX, OpenGL, Vulkan</li>
-		<li><strong>Low-Level Programming:</strong> Assembly, memory allocators, data-oriented design, SoA vs. AoS</li>
+      <li>C, C++, C#, x86/x64 assembly</li>
+      <li>Custom engines, game consoles, rendering, shaders, physics, AI, immediate-mode UI, custom memory allocators</li>
+      <li>Windows, Xbox, Steam Deck, iPad, Android, HoloLens</li>
 	  </ul>
 	</div>
 
@@ -91,16 +74,23 @@
 		  <h2 style="margin-bottom: 0.25rem;">Cultist Astronaut (Custom Engine - C/C++)</h2>
 		  
 		  <p style="margin-top: 0; margin-bottom: 0rem;">
-			<a href="https://www.infinitivegames.com/cultist-astronaut.html" target="_blank">
-			  Check out the Website
+			<a href="https://store.steampowered.com/app/1834700/Cultist_Astronaut/" target="_blank">
+			  Check out the Steam Page
 			</a>
 		  </p>
 		  
-		  <ul>
-			<li>Built a full 2D engine with custom rendering, audio, animation, scripting, and UI systems</li>
-			<li>Integrated Spine 2D animation, AI behavior trees, and optimized 2D batching for sprites and tilemaps</li>
-			<li>Designed internal tools for level editing, debug rendering, and special effects</li>
-		  </ul>		
+      <ul>
+        <li>Built a custom 2D engine in C/C++ with rendering, audio, animation, scripting, and UI systems</li>
+        <li>Developed an integrated editor (enabled via build flag) for entities, particles, levels, and performance profiling</li>
+        <li>Actively porting the game to Xbox and Steam Deck</li>
+        <li>Heavily involved in level and game design; collaborate closely with an artist on visual and layout design</li>
+      </ul>
+		  
+			<div style="flex: 1;">
+			  <video width="100%" controls style="object-fit: cover;">
+				<source src="media/steam_video_excoria_rough_4.mp4" type="video/mp4">
+			  </video>
+			</div>
 		  
 		  <div style="display: flex; gap: 0.5rem;">
 			<div style="flex: 1;">
@@ -116,19 +106,34 @@
 		  </div>
 	  </div>
 	  
+    <p>
+      This is a custom profiler built using a macro-based API for marking regions in code.
+      It supports nested regions and renders them as a hierarchical tree in the UI.
+    </p>
+    <div style="flex: 1;">
+      <img src="media/profiler.png" style="width: 100%; object-fit: cover; border-radius: 8px;">
+    </div>
+    
+    <p>
+      The editor allows us to add, remove, and edit entities. Our game makes heavy use of layers and parallax, so we’ve built tools to adjust the sorting order of sprites and meshes. The editor also supports play, pause, and stop functionality at any point during editing. Entities are serialized using a custom type info system, automatically generated by a metaprogram that parses our C structs.
+    </p>
+    <div style="flex: 1;">
+      <img src="media/game_editor_1.png" style="width: 100%; object-fit: cover; border-radius: 8px;">
+    </div>
+    <div style="flex: 1;">
+      <img src="media/game_editor_2.png" style="width: 100%; object-fit: cover; border-radius: 8px;">
+    </div>
+	  
 	  <h2>Unity Reflect</h2>
-        
         <p>
-            During my time at Unity Technologies, I managed a team of 10 senior developers. Our team was responsible for migrating the best parts of VisualLive to the Reflect / Digital Twins ecosystem.
-            I was personally involved in improving UX for Augmented Reality on HoloLens and iPad.
+          During my time at Unity Technologies, I managed a team of 8 developers responsible for migrating VisualLive to Unity Reflect and Digital Twins. I was directly involved in improving the user experience for Augmented Reality on HoloLens and iPad, and later contributed to projects involving a range of VR headsets.
         </p>
         
         <div style="text-align: center; margin-top: 0.5rem; margin-bottom: 0.5rem;">
             <iframe
                 width="65%" 
                 height="300" 
-                src="https://www.youtube.com/embed/LTYaPOFgC9g"
-                title="Morpheus Alpha Reel" 
+                src="https://www.youtube.com/embed/LTYaPOFgC9g?mute=1"
                 frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen>
@@ -138,16 +143,15 @@
 	  <h2>VisualLive (Unity C#)</h2>
 	  
         <p>
-            VisualLive is an AR/VR solution for the AEC (Architecture, Engineering, and Construction) industry, designed to run on both the HoloLens and iPad. This cloud-based platform enables users to process and visualize complex 3D models directly on the job site.
+          VisualLive is an AR/VR solution for the AEC (Architecture, Engineering, and Construction) industry, designed to run on both the HoloLens and iPad. This cloud-based platform enables users to process and visualize complex 3D models directly on the job site.
         </p>
         <p>
-            As the development team lead, I was responsible for:
-            <ul>
-               <li> Managing and coordinating a team of engineers </li>
-               <li> Collaborating directly with customers to understand pain points and shape feature development </li>
-               <li> Optimizing model processing and rendering performance across platforms </li>
-            </ul>
+          As the development lead, I was responsible for:
         </p>
+        <ul>
+          <li>Optimizing model processing and rendering performance for mobile platforms</li>
+          <li>Communicating directly with customers to identify pain points and prioritize feature development</li>
+        </ul>
         
         <div style="display: flex; gap: 0.5rem;">
           <div style="flex: 1;">
